@@ -1,0 +1,28 @@
+img {
+  max-width: 400px;
+  max-height: 400px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header {
+  background: #1F2937;
+}
+
+.body-one {
+  background: #1F2937;
+}
+
+.body-two {
+  
+}
+
+.body-three {
+  background: #E5E7EB;
+}
+
+footer {
+  background: #1F2937
+}
