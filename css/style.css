@@ -2,6 +2,7 @@ body {
   display: flex;
   flex: 1;
   flex-direction: column;
+  font-family: 'Oswald', sans-serif;
 }
 
 img {
@@ -11,7 +12,8 @@ img {
 
 a {
   text-decoration: none;
-  color: white;
+  color: #E5E7EB;
+  text-size: 18px;
 }
 
 ul {
@@ -20,10 +22,14 @@ ul {
   flex-direction: row;
   left-padding: 0;
   margin-left: auto;
+  margin-right: 200px;
+  gap: 20px;
 }
 
 header {
-  margin: 16px 0px;
+  margin-left: 200px;
+  font-size: 24px;
+  color: #F9FAF8;
 }
 
 .header {
@@ -32,20 +38,66 @@ header {
   color: white;
 }
 
+/*#body-section {
+  padding-left: 200px;
+  padding-right: 200px;
+}*/
+
 .body-one {
   background: #1F2937;
+  padding: 30px 200px;
   display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.big-card-title {
+  font-size: 48px;
+  font-weight: bolder;
+  color: #F9FAF8;
+}
+
+.big-card button {
+  width: 100px;
+  background-color: #3882F6;
+  color: white;
+  border: none;
+  text-align: center;
+  font-weight: bold;
+  padding: 5px;
+  font-size: 16px;
+  border-radius: 8px;
+}
+
+.big-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.big-card p {
+  font-size: 18px;
+  color: #E5E7EB;
 }
 
 .body-two {
+  padding: 30px 200px;
   display: flex;
   flex-direction: column;
+}
+
+.body-two-title {
+  display: flex;
+  justify-content: center;
+  font-size: 36px;
+  font-weight: bolder;
 }
 
 .card-group {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  gap: 50px;
 }
 
 .card {
@@ -62,9 +114,11 @@ header {
 
 .body-three {
   background: #E5E7EB;
+  padding: 30px 200px;
 }
 
 .body-four {
+  padding: 30px 200px;
   display: flex;
   justify-content: center;
 }
@@ -76,5 +130,7 @@ header {
 .footer {
   background: #1F2937;
   color: white;
+  display: flex;
+  justify-content: center;
 }
 
